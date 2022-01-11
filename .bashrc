@@ -1,8 +1,3 @@
-# Personal setting
-# You can modify at here
-alias clr='clear'
-alias bu='ssh 10.242.116.6'
-
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
