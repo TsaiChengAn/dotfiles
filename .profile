@@ -15,6 +15,7 @@ alias grst='git reset'
 alias gf='git fetch'
 alias gps='git push'
 alias gpl='git pull'
+alias gb='git branch'
 
 # ~/.profile: executed by the command interpreter for login shells.
 # This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
