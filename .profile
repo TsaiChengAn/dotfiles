@@ -4,6 +4,7 @@ alias ..='cd ..'
 alias clr='clear'
 alias bu='ssh 10.242.116.6'
 # add alias of git at here
+alias g='git'
 alias gl='git log'
 alias gst='git status'
 alias gco='git checkout'
