@@ -9,10 +9,9 @@
 	br = branch
 	co = checkout
 	st = status
-	ci = commit
+	cm = commit
 	unstage = reset HEAD --
 	last = log -1 HEAD
-	a = add
-        l = log
-	d = diff
-	m = merge
+	ldg = log --decorate --graph
+	df = diff
+	mg = merge	

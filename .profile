@@ -5,18 +5,18 @@ alias clr='clear'
 alias bu='ssh 10.242.116.6'
 # add alias of git at here
 alias g='git'
-alias gl='git log'
+alias gl='git log --decorate --graph'
 alias gst='git status'
 alias gco='git checkout'
 alias ga='git add'
 alias gcm='git commit'
-alias gd='git diff'
+alias gdf='git diff'
 alias gmg='git merge'
 alias grst='git reset'
 alias gf='git fetch'
 alias gps='git push'
 alias gpl='git pull'
-alias gb='git branch'
+alias gbr='git branch'
 
 # ~/.profile: executed by the command interpreter for login shells.
 # This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
