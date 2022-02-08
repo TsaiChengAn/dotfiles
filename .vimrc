@@ -1,4 +1,5 @@
 syntax enable
+set mouse=a
 set number
 set linebreak
 set showbreak=+++
