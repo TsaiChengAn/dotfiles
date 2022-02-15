@@ -36,10 +36,23 @@ Plugin 'scrooloose/nerdtree'
 call vundle#end()
 filetype plugin indent on
 
-map <f2> :NERDTreeToggle<CR>
-map <f3> :TagbarToggle<CR>
+"ToMouseMode
+let s:mouseMode = "N"
+function! ToMouseMode()
+    if s:mouseMode == "Y"
+	set mouse=n
+	let s:mouseMode = "N"
+    else
+	set mouse-=n
+	let s:mouseMode = "Y"
+    endif
+endfunction
+
+nmap <F2> :call ToMouseMode()<CR>
+nnoremap <F3> :set nu! nu?<CR>
+map <F4> :NERDTreeToggle<CR>
+map <F5> :TagbarToggle<CR>
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-h> <C-w>h
 map <C-l> <C-w>l
-nnoremap <F4> :set nu! nu?<CR>
