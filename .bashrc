@@ -2,8 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 
 # my setting
-alias cp='cp -i'
+#alias cp='cp -i'
 alias mv='mv -i'
+cd ~
 
 # for examples
 
