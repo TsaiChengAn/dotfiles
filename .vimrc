@@ -2,7 +2,6 @@ syntax enable
 set mouse=n
 set number
 set linebreak
-set showbreak=+++
 set textwidth=100
 set showmatch
 
