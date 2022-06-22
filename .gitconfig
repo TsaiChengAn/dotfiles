@@ -14,4 +14,7 @@
 	last = log -1 HEAD
 	ldg = log --decorate --graph
 	df = diff
-	mg = merge	
+	mg = merge
+
+[url "ssh://Andy_Tsai@gerrit.pelotime.com:29418"]
+	insteadof = ssh://gerrit.pelotime.com:29418

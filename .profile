@@ -1,6 +1,10 @@
 # Personal setting
 # You can modify at here
 alias ..='cd ..'
+alias ...='cd ../..'
+alias adb='adb.exe'
+alias mv='mv -i'
+#alias cp='cp -i'
 alias clr='clear'
 alias bu='ssh 10.242.116.6'
 # add alias of git at here
@@ -17,6 +21,9 @@ alias gf='git fetch'
 alias gps='git push'
 alias gpl='git pull'
 alias gbr='git branch'
+
+# Start from ~
+cd ~
 
 # ~/.profile: executed by the command interpreter for login shells.
 # This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
