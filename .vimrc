@@ -1,19 +1,20 @@
 syntax enable
-set ts=4
-set mouse=n
-set number
+set ts=4                            "設定tab空格數
+set mouse=n                         "設定滑鼠模式
+set number                          "顯示行數
 set linebreak
 set textwidth=100
 set showmatch
 
-set hlsearch
+set hlsearch                        "高亮搜尋
 set smartcase
 set ignorecase
 set incsearch
 
-set shiftwidth=4
-set smartindent
+set sw=4
 set smarttab
+set expandtab                       "tab轉space
+set smartindent                     "智慧縮進
 set ruler
 
 set undolevels=1000
